@@ -6,21 +6,21 @@ const Navbar = () => {
   const location = useLocation()
 
   return (
-    <nav className="fixed w-full z-50 glass-effect border-b border-yellow-500/30">
+    <nav className="fixed w-full z-50 glass-effect border-b border-purple-500/30">
       <div className="container-custom">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 rounded-full overflow-hidden shadow-lg">
+            <div className="w-10 h-10 rounded-full overflow-hidden shadow-lg">
               <img 
-                src="/pics/logo1.png" 
-                alt="The HIVE Logo" 
+                src="/pics/logo.jpg" 
+                alt="Cinou Dental Logo" 
                 className="w-full h-full object-cover"
               />
             </div>
             <div>
-              <h1 className="text-white font-bold text-xl">The HIVE</h1>
-              <p className="premium-text text-xs">Speaking Club</p>
+              <h1 className="text-white font-bold text-xl">Cinou Dental</h1>
+              <p className="premium-text text-xs">Clinic H24</p>
             </div>
           </div>
 
@@ -28,30 +28,28 @@ const Navbar = () => {
           <div className="hidden md:flex items-center space-x-8">
             <Link 
               to="/" 
-              className={`transition-colors ${location.pathname === '/' ? 'text-yellow-400' : 'text-white hover:text-yellow-400'}`}
+              className={`transition-colors ${location.pathname === '/' ? 'text-purple-400' : 'text-white hover:text-purple-400'}`}
             >
               Home
             </Link>
             <Link 
               to="/offer-for-you" 
-              className={`transition-colors ${location.pathname === '/offer-for-you' ? 'text-yellow-400' : 'text-white hover:text-yellow-400'}`}
+              className={`transition-colors ${location.pathname === '/offer-for-you' ? 'text-purple-400' : 'text-white hover:text-purple-400'}`}
             >
-              Offer for You
+              Our Services
             </Link>
             <a 
-              href="https://docs.google.com/forms/d/e/1FAIpQLSf2VuR-BR-i3TWiM1E8ePIPlGjMVWy3bthaUTKx8N29YtVRBw/viewform" 
-              target="_blank" 
-              rel="noopener noreferrer"
+              href="tel:+213698173427" 
               className="btn-primary"
             >
-              Join Now
+              Book Now
             </a>
           </div>
 
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="md:hidden text-white hover:text-yellow-400 transition-colors"
+            className="md:hidden text-white hover:text-purple-400 transition-colors"
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               {isMenuOpen ? (
@@ -65,29 +63,27 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden glass-effect border-t border-yellow-500/30">
+          <div className="md:hidden glass-effect border-t border-purple-500/30">
             <div className="px-2 pt-2 pb-3 space-y-1">
               <Link 
                 to="/" 
-                className={`block px-3 py-2 transition-colors ${location.pathname === '/' ? 'text-yellow-400' : 'text-white hover:text-yellow-400'}`}
+                className={`block px-3 py-2 transition-colors ${location.pathname === '/' ? 'text-purple-400' : 'text-white hover:text-purple-400'}`}
                 onClick={() => setIsMenuOpen(false)}
               >
                 Home
               </Link>
               <Link 
                 to="/offer-for-you" 
-                className={`block px-3 py-2 transition-colors ${location.pathname === '/offer-for-you' ? 'text-yellow-400' : 'text-white hover:text-yellow-400'}`}
+                className={`block px-3 py-2 transition-colors ${location.pathname === '/offer-for-you' ? 'text-purple-400' : 'text-white hover:text-purple-400'}`}
                 onClick={() => setIsMenuOpen(false)}
               >
-                Offer for You
+                Our Services
               </Link>
               <a 
-                href="https://docs.google.com/forms/d/e/1FAIpQLSf2VuR-BR-i3TWiM1E8ePIPlGjMVWy3bthaUTKx8N29YtVRBw/viewform" 
-                target="_blank" 
-                rel="noopener noreferrer"
+                href="tel:+213698173427" 
                 className="block px-3 py-2 btn-primary text-center"
               >
-                Join Now
+                Book Now
               </a>
             </div>
           </div>

@@ -1,22 +1,22 @@
 const Services = () => {
   const services = [
     {
-      icon: "💬",
-      title: "Interactive Debates",
-      description: "Engage in thought-provoking discussions on current events, technology, culture, and more.",
-      features: ["Real-world topics", "Structured format", "Peer feedback"]
+      icon: "🦷",
+      title: "General Dentistry",
+      description: "Comprehensive dental care including cleanings, fillings, and preventive treatments.",
+      features: ["Regular checkups", "Teeth cleaning", "Cavity treatment"]
     },
     {
-      icon: "🤝",
-      title: "Networking Sessions",
-      description: "Connect with like-minded individuals and build professional relationships.",
-      features: ["Professional networking", "Cultural exchange", "Community building"]
+      icon: "😁",
+      title: "Cosmetic Dentistry",
+      description: "Enhance your smile with our cosmetic dental procedures and treatments.",
+      features: ["Teeth whitening", "Veneers", "Smile makeovers"]
     },
     {
-      icon: "📈",
-      title: "Skill Development",
-      description: "Improve your English speaking, listening, and critical thinking skills.",
-      features: ["Public speaking", "Critical thinking", "Leadership skills"]
+      icon: "🦴",
+      title: "Orthodontics",
+      description: "Professional teeth straightening and bite correction services.",
+      features: ["Braces", "Invisalign", "Teeth alignment"]
     }
   ]
 
@@ -28,7 +28,7 @@ const Services = () => {
             Our <span className="premium-text">Services</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Join our comprehensive English development program designed for intermediate to advanced speakers.
+            Comprehensive dental care services available 24/7 with modern equipment and experienced professionals.
           </p>
         </div>
 
@@ -51,75 +51,44 @@ const Services = () => {
           ))}
         </div>
 
-        {/* Pricing Section */}
+        {/* Video Showcase Section */}
         <div className="premium-card p-8">
           <div className="text-center mb-8">
-            <h3 className="text-3xl font-bold text-white mb-4">Simple & Transparent Pricing</h3>
-            <p className="text-gray-300">No hidden fees, no long-term commitments</p>
+            <h3 className="text-3xl font-bold text-white mb-4">Our Work Showcase</h3>
+            <p className="text-gray-300">See the quality of our dental work through our video presentations</p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8 items-center">
-            {/* Pricing Card */}
-            <div className="premium-gradient p-8 rounded-2xl text-center shadow-2xl">
-              <div className="text-6xl font-bold text-slate-900 mb-2">500 DA</div>
-              <div className="text-slate-900 text-lg mb-6">Per Session</div>
-              <ul className="space-y-3 text-slate-900 text-left">
-                <li className="flex items-center">
-                  <span className="mr-3">✓</span>
-                  2-hour interactive session
-                </li>
-                <li className="flex items-center">
-                  <span className="mr-3">✓</span>
-                  Professional guidance
-                </li>
-                <li className="flex items-center">
-                  <span className="mr-3">✓</span>
-                  Networking opportunities
-                </li>
-                <li className="flex items-center">
-                  <span className="mr-3">✓</span>
-                  Skill development materials
-                </li>
-              </ul>
+          <div className="grid md:grid-cols-2 gap-8">
+            {/* Video 1 */}
+            <div className="space-y-4">
+              <div className="aspect-video bg-slate-800 rounded-lg overflow-hidden">
+                <video
+                  className="w-full h-full object-cover"
+                  controls
+                  preload="metadata"
+                >
+                  <source src="/pics/dental check brace.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <h4 className="text-xl font-bold text-white text-center">Dental Check & Brace Treatment</h4>
+              <p className="text-gray-300 text-center">Comprehensive dental examination and orthodontic treatment showcase</p>
             </div>
 
-            {/* Requirements */}
-            <div className="space-y-6">
-              <div className="premium-card p-6">
-                <h4 className="text-xl font-bold text-white mb-4">Requirements to Join</h4>
-                <div className="space-y-3">
-                  <div className="flex items-center text-gray-300">
-                    <span className="premium-text mr-3">🎯</span>
-                    Age: 17-35 years old
-                  </div>
-                  <div className="flex items-center text-gray-300">
-                    <span className="premium-text mr-3">📚</span>
-                    English Level: Intermediate or Advanced
-                  </div>
-                  <div className="flex items-center text-gray-300">
-                    <span className="premium-text mr-3">💬</span>
-                    Willingness to participate actively
-                  </div>
-                </div>
+            {/* Video 2 */}
+            <div className="space-y-4">
+              <div className="aspect-video bg-slate-800 rounded-lg overflow-hidden">
+                <video
+                  className="w-full h-full object-cover"
+                  controls
+                  preload="metadata"
+                >
+                  <source src="/pics/purple dental girl.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
               </div>
-
-              <div className="premium-card p-6">
-                <h4 className="text-xl font-bold text-white mb-4">What You'll Get</h4>
-                <div className="space-y-3">
-                  <div className="flex items-center text-gray-300">
-                    <span className="premium-text mr-3">🌟</span>
-                    Improved English speaking skills
-                  </div>
-                  <div className="flex items-center text-gray-300">
-                    <span className="premium-text mr-3">🤝</span>
-                    Professional network connections
-                  </div>
-                  <div className="flex items-center text-gray-300">
-                    <span className="premium-text mr-3">📈</span>
-                    Personal development opportunities
-                  </div>
-                </div>
-              </div>
+              <h4 className="text-xl font-bold text-white text-center">Purple Dental Care</h4>
+              <p className="text-gray-300 text-center">Specialized dental care with our signature purple theme</p>
             </div>
           </div>
         </div>

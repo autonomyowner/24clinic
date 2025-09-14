@@ -1,10 +1,10 @@
-# The HIVE Speaking Club Website
+# Cinou Dental Clinic H24 Website
 
-A modern, responsive website for The HIVE Speaking Club - Algeria's premier English conversation community with 500K+ Instagram followers.
+A modern, responsive website for Cinou Dental Clinic H24 - Professional dental care available 24/7 in Ben 'Aknoûn, Algeria.
 
 ## 🚀 Features
 
-- **Modern Design**: Beautiful gradient background with slate-900 to amber-400 theme
+- **Modern Design**: Beautiful gradient background with slate-900 to purple-900 theme
 - **Responsive Layout**: Optimized for all devices (mobile, tablet, desktop)
 - **Interactive Components**: Smooth animations and hover effects
 - **SEO Optimized**: Meta tags, structured data, and performance optimized
@@ -12,19 +12,20 @@ A modern, responsive website for The HIVE Speaking Club - Algeria's premier Engl
 
 ## 🎨 Design Theme
 
-- **Primary Colors**: Slate-900 (#0f172a) and Amber-400 (#f59e0b)
-- **Background**: Gradient from slate-900 via amber-400 to slate-900
+- **Primary Colors**: Slate-900 (#0f172a) and Purple-600 (#7c3aed)
+- **Background**: Gradient from slate-900 via purple-900 to slate-900
 - **Typography**: Inter font family for modern, clean appearance
 - **Components**: Glassmorphism effects with backdrop blur
 
 ## 📱 Sections
 
-1. **Hero Section**: Compelling headline with 500K+ follower badge
+1. **Hero Section**: Compelling headline with 24K+ Facebook followers
 2. **About**: Mission, vision, and benefits
-3. **Services**: Interactive debates, networking, skill development
-4. **Locations**: Algiers Centre and Tlemcen with schedules
-5. **Contact**: Social media links and registration form
-6. **Footer**: Quick links and contact information
+3. **Services**: General dentistry, cosmetic dentistry, orthodontics
+4. **Video Showcase**: Dental work demonstration videos
+5. **Locations**: Ben 'Aknoûn location with 24/7 availability
+6. **Contact**: Phone, email, and Facebook links
+7. **Footer**: Quick links and contact information
 
 ## 🛠️ Tech Stack
 
@@ -71,32 +72,33 @@ The built files will be in the `dist` folder, ready for deployment.
 
 ## 📊 Business Information
 
-### The HIVE Speaking Club Details
+### Cinou Dental Clinic H24 Details
 
-- **Locations**: Algiers Centre & Tlemcen, Algeria
-- **Target Audience**: 17-35 years old, Intermediate to Advanced English speakers
-- **Pricing**: 500 DA per session
-- **Schedule**: Saturdays (1:00 PM - 3:00 PM & 3:30 PM - 5:30 PM)
-- **Social Media**: 500K+ Instagram followers (@thehivespeakingclub)
-- **Registration**: Google Form integration
+- **Location**: Ben 'Aknoûn, Algeria, 16009
+- **Target Audience**: All ages requiring dental care
+- **Hours**: 24/7 Always Open
+- **Phone**: 0698 17 34 27
+- **Email**: cinou.dental@gmail.com
+- **Social Media**: 24K+ Facebook followers (@cinou.dental)
+- **Services**: General dentistry, cosmetic dentistry, orthodontics, emergency care
 
-### Monetization Opportunities
+### Key Benefits
 
-With 500K+ Instagram followers, this website can help:
+With 24K+ Facebook followers, this website can help:
 
-1. **Lead Generation**: Capture registrations and contact information
+1. **Patient Acquisition**: Capture appointments and contact information
 2. **Brand Authority**: Professional website builds trust
-3. **Content Hub**: Showcase testimonials and educational content
-4. **E-commerce**: Potential for courses, materials, premium memberships
-5. **Advertising**: Attract sponsors and advertisers
-6. **Event Promotion**: Better promotion of speaking events
-7. **Community Building**: Online platform complementing in-person sessions
+3. **Service Showcase**: Display dental work and testimonials
+4. **24/7 Accessibility**: Online presence matches 24/7 clinic availability
+5. **Emergency Contact**: Easy access to contact information
+6. **Service Information**: Clear information about all dental services
+7. **Social Proof**: Integration with Facebook page and reviews
 
 ## 🎯 Key Features
 
-- **Registration Integration**: Direct links to Google Form
-- **Social Media Integration**: Instagram links prominently featured
-- **Location Maps**: Google Maps integration for both locations
+- **Appointment Booking**: Direct phone links for easy booking
+- **Social Media Integration**: Facebook links prominently featured
+- **Video Showcase**: Dental work demonstration videos
 - **Mobile-First Design**: Optimized for mobile users
 - **Performance Optimized**: Fast loading times and smooth animations
 
@@ -114,8 +116,8 @@ With 500K+ Instagram followers, this website can help:
 Update colors in `tailwind.config.js`:
 ```javascript
 colors: {
-  'hive-amber': '#f59e0b',
-  'hive-slate': '#0f172a',
+  'dental-purple': '#7c3aed',
+  'dental-slate': '#0f172a',
 }
 ```
 
@@ -123,19 +125,22 @@ colors: {
 All content is easily editable in the component files:
 - `src/components/Hero.tsx` - Main headline and stats
 - `src/components/About.tsx` - Mission and vision
-- `src/components/Services.tsx` - Services and pricing
+- `src/components/Services.tsx` - Services and video showcase
 - `src/components/Locations.tsx` - Location details
 - `src/components/Contact.tsx` - Contact information
+- `src/components/OfferForYou.tsx` - Second hero page with services
 
 ## 📞 Contact
 
-- **Instagram**: [@thehivespeakingclub](https://www.instagram.com/thehivespeakingclub/)
-- **Registration**: [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSf2VuR-BR-i3TWiM1E8ePIPlGjMVWy3bthaUTKx8N29YtVRBw/viewform)
+- **Phone**: +213 698 17 34 27
+- **Email**: cinou.dental@gmail.com
+- **Facebook**: [@cinou.dental](https://www.facebook.com/cinou.dental)
+- **Address**: Cinou Dental, Ben 'Aknoûn, Algeria, 16009
 
 ## 📄 License
 
-This project is created for The HIVE Speaking Club. All rights reserved.
+This project is created for Cinou Dental Clinic H24. All rights reserved.
 
 ---
 
-Built with ❤️ for The HIVE Speaking Club community
+Built with ❤️ for Cinou Dental Clinic H24

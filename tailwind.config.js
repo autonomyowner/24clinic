@@ -7,12 +7,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        'hive-yellow': '#eab308', // yellow-500
-        'hive-slate': '#0f172a',
-        'hive-yellow-light': '#facc15', // yellow-400 for highlights
+        'dental-purple': '#7c3aed', // purple-600
+        'dental-slate': '#0f172a',
+        'dental-purple-light': '#a855f7', // purple-500 for highlights
       },
       backgroundImage: {
-        'gradient-hive': 'linear-gradient(to bottom right, #0f172a, #eab308, #0f172a)',
+        'gradient-dental': 'linear-gradient(to bottom right, #0f172a, #7c3aed, #0f172a)',
       }
     },
   },

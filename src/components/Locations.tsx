@@ -1,24 +1,14 @@
 const Locations = () => {
   const locations = [
     {
-      city: "Algiers Centre",
+      city: "Ben 'Aknoûn",
       status: "Active",
       schedules: [
-        { time: "Saturday 1:00 PM - 3:00 PM", available: true },
-        { time: "Saturday 3:30 PM - 5:30 PM", available: true }
+        { time: "24/7 Emergency Care", available: true },
+        { time: "24/7 Routine Appointments", available: true }
       ],
-      mapUrl: "https://maps.app.goo.gl/umc16T5RYNvepSnf8?g%5Fst=com.google.maps.preview.copy",
-      description: "Our flagship location in the heart of Algiers, offering convenient access and modern facilities."
-    },
-    {
-      city: "Tlemcen",
-      status: "Coming Soon",
-      schedules: [
-        { time: "Saturday 1:00 PM - 3:30 PM", available: false },
-        { time: "Saturday 4:00 PM - 6:30 PM", available: false }
-      ],
-      mapUrl: "https://maps.app.goo.gl/3Bt7sB3oSzWXjSWf7?g%5Fst=ic",
-      description: "Expanding to Tlemcen to serve our growing community in western Algeria."
+      mapUrl: "https://maps.google.com/?q=Cinou+Dental+Ben+Aknoun+Algeria",
+      description: "Our main dental clinic location in Ben 'Aknoûn, providing comprehensive dental care with modern equipment and 24/7 availability."
     }
   ]
 
@@ -27,10 +17,10 @@ const Locations = () => {
       <div className="container-custom">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Our <span className="premium-text">Locations</span>
+            Our <span className="premium-text">Location</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Join us at our convenient locations across Algeria. More locations coming soon!
+            Visit our dental clinic in Ben 'Aknoûn for professional dental care available 24/7.
           </p>
         </div>
 
@@ -56,7 +46,7 @@ const Locations = () => {
 
               {/* Schedules */}
               <div className="mb-6">
-                <h4 className="text-lg font-semibold text-white mb-3">Available Sessions:</h4>
+                <h4 className="text-lg font-semibold text-white mb-3">Available Services:</h4>
                 <div className="space-y-2">
                   {location.schedules.map((schedule, scheduleIndex) => (
                     <div key={scheduleIndex} className={`flex items-center justify-between p-3 rounded-lg ${
@@ -101,18 +91,16 @@ const Locations = () => {
         {/* Additional Info */}
         <div className="mt-12 premium-card p-8">
           <div className="text-center">
-            <h3 className="text-2xl font-bold text-white mb-4">Ready to Join?</h3>
+            <h3 className="text-2xl font-bold text-white mb-4">Ready to Book Your Appointment?</h3>
             <p className="text-gray-300 mb-6">
-              Choose your preferred location and time slot when registering. 
-              We'll send you a confirmation email with all the details.
+              Contact us anytime for emergency care or to schedule your routine dental appointment. 
+              We're available 24/7 to serve your dental needs.
             </p>
             <a 
-              href="https://docs.google.com/forms/d/e/1FAIpQLSf2VuR-BR-i3TWiM1E8ePIPlGjMVWy3bthaUTKx8N29YtVRBw/viewform" 
-              target="_blank" 
-              rel="noopener noreferrer"
+              href="tel:+213698173427" 
               className="btn-primary"
             >
-              Register Now
+              Book Appointment
             </a>
           </div>
         </div>
